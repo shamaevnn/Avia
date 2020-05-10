@@ -20,8 +20,7 @@ class Hangar(object):
             self.rects.update({start_date: []})
             self.packers.update({start_date: newPacker().add_bin(*b)})
             start_date += td
-        
-        
+
     def is_available(self, t, t_delta, order_count, width, height):
         
         start_date = t
@@ -42,7 +41,6 @@ class Hangar(object):
             start_date += td
             
         return True
-
 
 
 #псевдокод
