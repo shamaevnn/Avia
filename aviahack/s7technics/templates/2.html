@@ -1,0 +1,78 @@
+<html lang="ru">
+<head>
+
+		<META charset="utf-8">
+		<TITLE></TITLE>
+			
+<script src="https://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript">
+$(document).ready(function (){
+	$(':radio').click(function (){
+		if (this.checked) {
+			$('#test').attr('src',this.value);
+		}
+	});
+        var sel =  document.querySelectorAll('input[type=radio]')[0];
+        sel.checked = true;
+        $(sel).click();
+        
+});
+</script>
+
+<style>
+fieldset {
+width: 100px;
+}
+
+</style>
+</head>
+<body>
+
+<table><td>
+				<form>
+				<FIELDSET > 
+					<LEGEND>Даты</LEGEND> 
+				<label>
+				<p>
+				
+				<input type='radio' name='scr' value='1.jpg' /> 07.05.2020</p>
+				</label>
+				<label>
+				<p><input type='radio' name='scr' value='2.jpg' /> 08.05.2020</p>
+				</label>
+				<label>
+				<p><input type='radio' name='scr' value='3.jpg' /> 09.05.2020</p>
+				</label>
+				<label>
+				<p><input type='radio' name='scr' value='4.jpg' /> 10.05.2020</p>
+				</label>
+				<label>
+				<p><input type='radio' name='scr' value='5.jpg' /> 11.05.2020</p>
+				</label><label>
+				<p><input type='radio' name='scr' value='6.jpg' /> 12.05.2020</p>
+				</label><label>
+				<p><input type='radio' name='scr' value='7.jpg' /> 13.05.2020</p>
+				</label>
+				<label>
+				<p><input type='radio' name='scr' value='8.jpg' /> 14.05.2020</p>
+				</label>
+				</fieldset>
+				</form>
+				</td>
+					<td>
+				<fieldset>
+					<img id='test'  />
+
+				</fieldset>
+			</Td>
+			
+		
+	
+			
+			
+			
+			
+</BODY>
+</html>
+
+
