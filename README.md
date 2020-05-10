@@ -20,4 +20,5 @@
 ## Итоговые файлыы
 
 Итоговые файлы находятся в s7technics/data
+
 Рабочий прототип: https://vk.com/away.php?utf=1&to=https%3A%2F%2Frlobodenko.github.io%2FAviaHackathon%2F1.html
