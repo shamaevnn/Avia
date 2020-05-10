@@ -16,3 +16,8 @@
 1. Создать пользователя в админской панеле: <b> python manage.py createsuperuser </b>, заполнить все необходимые поля
 2. Запусть админку: <b> python manage.py runserver </b>
 3. Перейти в браузере на <b> http://127.0.0.1:8000/admin/ </b>
+
+## Итоговые файлыы
+
+Итоговые файлы находятся в s7technics/data
+Рабочий прототип: https://vk.com/away.php?utf=1&to=https%3A%2F%2Frlobodenko.github.io%2FAviaHackathon%2F1.html
