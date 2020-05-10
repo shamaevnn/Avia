@@ -1,12 +1,13 @@
 # AviaHackathon
 
-Проект команды zozozo. В качестве основного ЯП используется <b>Python 3.6+</b>
+## Общее 
+Проект команды zozozo. В качестве основного ЯП используется <b>Python 3.6+</b>, для front-end -- <b>HTML, CSS, JavaScript</b>, фреймворк для back-end -- <b> Django </b>. 
 
-Для front-end используется <b>HTML, CSS, JavaScript</b>. Фреймворк для back-end -- <b> Django </b>
+В качестве БД используется PostgreSql, нужно развернуть его локально, создать базу данных "avia" и загрузить туда данные из example.sql, это можно сделать так: <b> psql avia < ./example.sql </b>
 
-## Библиотеки
+## Первый запуск
 
-Все необходимые библиотеки для работы проекта указаны в requirements.txt
+1. Установить необходимые пакеты: <b>pip install -r requirements.txt</b>
+2. Накатить миграции: <b> python manage.py migrate </b>
 
-Их можно установить, выполнив команду <b>pip install -r requirements.txt</b>
 
