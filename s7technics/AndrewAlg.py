@@ -1,17 +1,16 @@
 import pandas as pd
 import numpy as np
-import datetime
 from gekko import GEKKO
 
 contract = 0.3
 Objective = 0
 
 # Загружаем датасаты
-avia = pd.read_excel('Авиакомпании.xlsx')
-angar = pd.read_excel('Ангары.xlsx')
-orders = pd.read_excel('Потребность Авиакомпаний.xlsx')
-avia_types = pd.read_excel('Типы ВС.xlsx')
-to_types = pd.read_excel('Типо ТО.xlsx')
+avia = pd.read_excel('s7technics/data/Авиакомпании.xlsx')
+angar = pd.read_excel('s7technics/data/Ангары.xlsx')
+orders = pd.read_excel('s7technics/data/Потребность Авиакомпаний.xlsx')
+avia_types = pd.read_excel('s7technics/data/Типы ВС.xlsx')
+to_types = pd.read_excel('s7technics/data/Типо ТО.xlsx')
 
 # Создаем нужные колонки
 orders_first = orders.loc[
