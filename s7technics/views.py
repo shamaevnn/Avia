@@ -1,5 +1,8 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.template.response import TemplateResponse
 
 def index(request):
-    return HttpResponse("Hello, world. You're at the polls index.")
+    return TemplateResponse(request, 'start.html')
+
+def hangar(request):
+    return TemplateResponse(request, 'info.html')
